@@ -16,9 +16,9 @@ def get_word_count(filename):
     
     file_name.close()
 
-    print(word_count)
     return word_count
 
 get_word_count("test.txt")
+get_word_count("twain.txt")
 
     
